@@ -1,6 +1,6 @@
 # Visual to the UI (CSS, visual elements)
    ## Focus Visible:
-  ![focusvisibleissue](https://cloud.githubusercontent.com/assets/17002788/25632808/eca5eb68-2f29-11e7-8af1-0133bd0e3f66.PNG)
+  ![](/images/focusvisibleissue.PNG)
 
 Ensure to make focus visible on link with keyboard and tab events on      Individuals & families, small business, Login.
 ### How to Fix:
@@ -11,9 +11,9 @@ a:focus, a:hover {
 ```
 ## Contrast:  
 Ensure to provide good contrast ratio for Remove Button and on selection and mouse hover. Also the ESPONOL button on the top:
-![contrast-issue3](https://cloud.githubusercontent.com/assets/17002788/25634108/43a47b32-2f2e-11e7-9cf7-56ad372496ff.PNG)
+![](/images/contrast-issue3.PNG)
 
- ![contrast-issue](https://cloud.githubusercontent.com/assets/17002788/25634158/6910ea64-2f2e-11e7-956b-0913d0f975f4.PNG)
+![](/images/contrast-issue.PNG)
 
 ### Contrast Ratio: 4.53:1
 * Normal Text: Sample
@@ -24,8 +24,7 @@ AA: Pass
 AAA: Pass
 
 
-![contrast-issue2](https://cloud.githubusercontent.com/assets/17002788/25634512/c9eed3f4-2f2f-11e7-8573-cf3110fe49bf.PNG)
-
+![](/images/contrast-issue2.PNG)
 
 ### Contrast Ratio: 1.16:1
 * Normal Text: Sample
@@ -78,8 +77,8 @@ On this page user should get notify search result, selection result and number o
 2.	Developer should maintain focus as per update result on appropriate element.
 After clicking on more button focus should maintain on top section of result. 
 
- ![previouse-more](https://cloud.githubusercontent.com/assets/17002788/25634559/ee399442-2f2f-11e7-8d51-135711f2630a.PNG)
-
+ ![](/images/previouse-more.PNG)
+ 
 ```
 <a aria-describedby="" aria-controls="hcapp-providerResult" class="next transparent u-font-size-deci qa-next-doctors" href="" ng-if="nextPage" ng-click="getPage(nextPage)">
 More <span aria-hidden="true">→</span> <span class="visuallyhidden">page of results for this group</span>
@@ -89,7 +88,8 @@ More <span aria-hidden="true">→</span> <span class="visuallyhidden">page of re
   Examples of code:
               Using .focus() method in javascript:
 ```
-focusMethod = function getFocus() {           document.getElementById("myTextField").focus();
+focusMethod = function getFocus() { 
+   document.getElementById("myTextField").focus();
 }
 <input type="text" id="myTextField" value="Text field.">
 <p></p>
